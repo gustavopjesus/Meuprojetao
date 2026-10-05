@@ -1,0 +1,31 @@
+header {
+  padding: 16px;
+  background: black;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.cabecalho a {
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.cabecalho a:hover {
+  background: red;
+}

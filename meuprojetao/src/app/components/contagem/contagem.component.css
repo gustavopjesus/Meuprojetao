@@ -1,0 +1,44 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  padding-bottom: 40px;
+  background: #f3f4f6;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0 24px;
+  color: #2563eb;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0 auto 24px;
+  color: #1f2937;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+button {
+  width: 56px;
+  height: 48px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}

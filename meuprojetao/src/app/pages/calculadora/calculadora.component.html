@@ -1,0 +1,17 @@
+
+<app-cabechalho></app-cabechalho>
+
+<h1>CALCULADORA</h1>
+
+<div class="Geral">
+<input type="number" placeholder="Numero 01" [(ngModel)]="numero01">
+<input type="number" placeholder="Numero 02" [(ngModel)]="numero02">
+
+<div class="Operadores">
+<button (click)="somal()">+</button>
+<button (click)="subtl()">-</button>
+<button (click)="multi()">*</button>
+<button (click)="divil()">%</button>
+</div>
+<p #resultado >{{resultadol}}</p>
+</div>

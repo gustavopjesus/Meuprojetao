@@ -1,0 +1,79 @@
+
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f3f4f6;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 40px 0 24px;
+  text-align: center;
+  font-size: 2rem;
+  color: #2563eb;
+}
+
+.Geral {
+  width: min(90%, 360px);
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+}
+
+.Geral input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.Geral input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 15%);
+}
+
+.Operadores {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.Operadores button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+.Operadores button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.Operadores button:active {
+  transform: translateY(0);
+}
+
+.Geral p {
+  min-height: 28px;
+  margin: 0;
+  padding: 12px;
+  border-radius: 8px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
